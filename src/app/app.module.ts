@@ -6,6 +6,7 @@ import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './common/menu/menu.component';
 import { VentasComponent } from './ventas/ventas.component';
 import { HeaderComponent } from './header/header.component';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { HeaderComponent } from './header/header.component';
     HeaderComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]
